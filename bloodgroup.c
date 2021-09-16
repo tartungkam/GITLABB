@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{ char Name[60], G[5], answer[40];
-  int i;
-  do
-  {
-    printf("What's your Name? ");
+
 { char Name[60], G[5], answer[20];  ////
   int i;
   do
@@ -48,11 +44,6 @@ void main()
     }
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
-<<<<<<< HEAD
   } while (strcmp(answer, "yes") == 0);
-  printf("Goodbye\n");
-=======
-  } while (strcmp(answer, "YES") == 0);
   printf("Good luck!!\n"); ///
->>>>>>> 3fd72a5e7c0d5e3580019aca3088799e84635ac1
 }
