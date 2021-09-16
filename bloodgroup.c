@@ -2,7 +2,7 @@
 #include <string.h>
 void main()
 
-{ char Name[60], G[5], answer[40];  ////
+{ char Name[60], G[5], answer[10]; // user A answer[10]
   int i;
   do
   {
@@ -44,6 +44,6 @@ void main()
     }
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
-  } while (strcmp(answer, "yes") == 0);
+  } while (strcmp(answer, "YES") == 0); // User A YES
   printf("Good luck!!\n"); ///
 }
